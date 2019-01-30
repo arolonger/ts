@@ -10,7 +10,7 @@ class Main {
 
         this.tsButtonText = new TSButton().text;
         this.tsButtonDate = new TSButton().date;
-
+        
         this.jsButtonText = new JSButton().text;
         this.jsButtonCommonText = new JSButton().common.text;
     }

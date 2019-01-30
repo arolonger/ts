@@ -1,12 +1,23 @@
 {
     "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "forceConsistentCasingInFileNames": true,
         "module": "commonjs",
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "sourceMap": true,
         "outDir": "dist",
+        "strict": true,
         "allowJs": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
         "typeRoots": [
             "node_modules/@types",
             "typings"
-        ]
+        ],
     },
     "exclude": [
         "node_modules",

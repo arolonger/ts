@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tslint-check": ".\\node_modules\\.bin\\tslint --project tsconfig.json"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "@types/knockout": "^3.4.63",
     "knockout": "^3.4.2",
     "moment": "^2.24.0",
+    "tslint": "^5.12.1",
     "typescript": "^3.2.4"
   }
 }
