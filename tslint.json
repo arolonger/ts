@@ -51,7 +51,7 @@
     "forin": true,
     "interface-name": [
       true,
-      "never-prefix"
+      "always-prefix"
     ],
     "jsdoc-format": true,
     "label-position": true,
