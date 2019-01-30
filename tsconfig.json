@@ -3,9 +3,13 @@
         "module": "commonjs",
         "outDir": "dist",
         "allowJs": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "typings"
+        ]
     },
     "exclude": [
         "node_modules",
         "dist",
-    ]
+    ],
 }

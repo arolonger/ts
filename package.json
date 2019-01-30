@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/knockout": "^3.4.63",
     "knockout": "^3.4.2",
+    "moment": "^2.24.0",
     "typescript": "^3.2.4"
   }
 }
